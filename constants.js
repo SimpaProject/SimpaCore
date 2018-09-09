@@ -5,12 +5,12 @@ exports.COUNT_WITNESSES = 5;
 exports.MAX_WITNESS_LIST_MUTATIONS = 1;
 exports.TOTAL_WHITEBYTES = 42e16;
 exports.MAJORITY_OF_WITNESSES = (exports.COUNT_WITNESSES%2===0) ? (exports.COUNT_WITNESSES/2+1) : Math.ceil(exports.COUNT_WITNESSES/2);
-exports.COUNT_MC_BALLS_FOR_PAID_WITNESSING = 100;
+exports.COUNT_MC_BALLS_FOR_PAID_WITNESSING = 0;
 
 exports.version = '1.0';
 exports.alt = '1';
 
-exports.GENESIS_UNIT = 'q0vnHPuI3Sd3lkTyX8Jv7qOARayGN9weHW0uj5mlSBA=';
+exports.GENESIS_UNIT = 'Fu4IFujxydf0zIB70cbzkhzwD75+TZLi8m8zDhRLBlQ=';
 
 exports.HASH_LENGTH = 44;
 exports.PUBKEY_LENGTH = 44;
@@ -29,7 +29,7 @@ exports.MAX_ATTESTORS_PER_ASSET = 64;
 exports.MAX_DATA_FEED_NAME_LENGTH = 64;
 exports.MAX_DATA_FEED_VALUE_LENGTH = 64;
 exports.MAX_AUTHENTIFIER_LENGTH = 4096;
-exports.MAX_CAP = 42e15;
+exports.MAX_CAP = 42e16;
 exports.MAX_COMPLEXITY = 100;
 
 exports.MAX_PROFILE_FIELD_LENGTH = 50;
