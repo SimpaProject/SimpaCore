@@ -10,7 +10,7 @@ exports.COUNT_MC_BALLS_FOR_PAID_WITNESSING = 0;
 exports.version = '1.0';
 exports.alt = '1';
 
-exports.GENESIS_UNIT = 'Fu4IFujxydf0zIB70cbzkhzwD75+TZLi8m8zDhRLBlQ=';
+exports.GENESIS_UNIT = 'pG37F+uD9iEIxmolv8gXQz3mJnsAvHP87wx/xevThLE=';
 
 exports.HASH_LENGTH = 44;
 exports.PUBKEY_LENGTH = 44;
